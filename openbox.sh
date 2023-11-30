@@ -26,7 +26,7 @@ web() {
 # zsh
 ohZSH() {
     mnsg
-    pkg install zsh
+    pkg install zsh -y
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     chsh -s zsh
     echo $SHELL
@@ -42,13 +42,13 @@ main() {
     2)
         # Instalando python
         mnsg
-        pkg install python
+        pkg install python -y
         python -V
         ;;
     3)
         # Instalando rust
         mnsg
-        pkg install rustup
+        pkg install rustup -y
         rustc -V
         ;;
     4)
@@ -58,7 +58,7 @@ main() {
     5)
         # Instalando nmap
         mnsg
-        pkg install nmap
+        pkg install nmap -y
         l nmap -V
         ;;
     *)
