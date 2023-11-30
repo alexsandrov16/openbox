@@ -30,6 +30,9 @@ ohZSH() {
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     chsh -s zsh
     echo $SHELL
+    sleep 3
+    echo "Editar ~/.zshrc"
+    nano ~/.zshrc
 }
 
 main() {
