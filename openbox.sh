@@ -51,7 +51,7 @@ main() {
     3)
         # Instalando rust
         mnsg
-        pkg install rustup -y
+        pkg install rust -y
         rustc -V
         ;;
     4)
