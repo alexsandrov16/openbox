@@ -3,7 +3,7 @@
 
 # Banner
 banner() {
-    echo 🧑‍💻 OpenBox 🧑‍💻
+    echo 🧑‍💻 OpenBox v.0.1 🧑‍💻
     echo "[1] 🚧 Apache/PHP (NO)"
     echo "[2] 🐍 Python"
     echo "[3] 🦀 Rust"
@@ -27,6 +27,9 @@ web() {
 ohZSH() {
     mnsg
     pkg install zsh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    chsh -s zsh
+    echo $SHELL
 }
 
 main() {
@@ -40,11 +43,13 @@ main() {
         # Instalando python
         mnsg
         pkg install python
+        python -V
         ;;
     3)
         # Instalando rust
         mnsg
         pkg install rustup
+        rustc -V
         ;;
     4)
         mnsg
@@ -54,6 +59,7 @@ main() {
         # Instalando nmap
         mnsg
         pkg install nmap
+        l nmap -V
         ;;
     *)
         banner
