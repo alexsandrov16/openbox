@@ -5,13 +5,13 @@ Este proyecto fue diseñado para facilitar la instalación de las herramientas q
 ## Funcionalidades
 
 Este script instala las siguientes herramientas:
-   - Python
-   - Rust
-   - PHP    [❌]
-   - MySQL  [❌]
-   - Apache [❌]
-   - Nmap
-   - Zsh (Oh-my-zsh)
+- [✔️] Python
+- [❌] Rust
+- [❌] PHP
+- [❌] MySQL
+- [❌] Apache
+- [✔️] Nmap
+- [✔️] Zsh (Oh-my-zsh)
 
 ## Requisitos
 
@@ -24,18 +24,17 @@ Este script instala las siguientes herramientas:
 
 ## Instalación
 
-1. Clona este repositorio ejecutando el siguiente comando:
-lb ```git clone https://github.com/alexsandrov16/openbox.git```
+1. Clona este repositorio ejecutando el siguiente comando ```git clone https://github.com/alexsandrov16/openbox.git```
 
 2. Navega hasta el directorio del proyecto ```cd openbox```
 
-3. Establecer los permisos con ```chmod +x openbox```
+3. Establecer los permisos con ```chmod +x openbox.sh```
 
 4. Ejecuta el script de instalación ```./openbox.sh```
 
 ## Licencia
 
-Este proyecto se encuentra bajo la licencia [MIT](https://opensource.org/licenses/MIT). Puedes ver más detalles en el archivo [LICENSE](LICENSE).
+Este proyecto se encuentra bajo la licencia [MIT](LICENSE).
 
 ## Contacto
 
