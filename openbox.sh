@@ -52,7 +52,7 @@ main() {
         # Instalando rust
         mnsg
         pkg install rust
-        rustc -V
+        #rustc -V
         ;;
     4)
         mnsg
