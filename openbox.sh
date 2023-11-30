@@ -8,7 +8,7 @@ banner() {
     echo "[2] 🐍 Python"
     echo "[3] 🦀 Rust"
     echo "[4] 🎨 Zsh/Oh-My-Zsh"
-    echo "[5] 🕵️‍♂️ Nmap"
+    echo "[5] 🔍 Nmap"
 }
 
 # Mensaje de instalacion
