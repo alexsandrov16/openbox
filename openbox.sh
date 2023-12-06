@@ -4,9 +4,9 @@
 # Banner
 banner() {
     echo 🧑‍💻 OpenBox v.0.1 🧑‍💻
-    echo "🚧 🐘 Apache/PHP (NO)"
+    echo "[1] 🐘 Apache/PHP"
     echo "[2] 🐍 Python"
-    echo "🚧 🦀 Rust"
+    echo "[3] 🦀 Rust"
     echo "[4] 🎨 Zsh/Oh-My-Zsh"
     echo "[5] 🔍 Nmap"
 }
@@ -19,8 +19,8 @@ mnsg() {
 
 # Apache PHP
 web() {
-    echo 😵‍💫 No implementado...
-    #pkg install php-apache
+#    echo 😵‍💫 No implementado...
+    pkg install php-apache -y
 }
 
 # zsh
@@ -36,7 +36,7 @@ ohZSH() {
 ## Inicializa script
 case $1 in
 1)
-    #mnsg
+    mnsg
     web
     ;;
 2)
@@ -48,10 +48,10 @@ case $1 in
     ;;
 3)
     # Instalando rust
-    #mnsg
-    #pkg install rust
+    mnsg
+    pkg install rust
     #rustc -V
-    web
+    #web
     ;;
 4)
     mnsg
