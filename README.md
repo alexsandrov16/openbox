@@ -6,10 +6,10 @@ Este proyecto fue diseñado para facilitar la instalación de las herramientas q
 
 Este script instala las siguientes herramientas:
 - [✔️] Python
-- [❌] Rust
-- [❌] PHP
+- [✔️] Rust
+- [✔️] PHP
 - [❌] MySQL
-- [❌] Apache
+- [✔️] Apache
 - [✔️] Nmap
 - [✔️] Zsh (Oh-my-zsh)
 
